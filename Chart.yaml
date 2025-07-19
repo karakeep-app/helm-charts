@@ -2,8 +2,8 @@ apiVersion: v2
 name: karakeep
 description: A Helm chart for Karakeep
 type: application
-version: 0.24.1
-appVersion: 0.24.1
+version: 0.25.0
+appVersion: 0.25.0
 dependencies:
   - name: common
     version: 3.7.3
