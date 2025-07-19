@@ -7,6 +7,17 @@ Helm chart for deploying Karakeep along with:
 
 This chart inherits from the [bjw-s/common](https://github.com/bjw-s/helm-charts/tree/main/charts/library/common) library.
 
+
+### Usage
+
+```bash
+helm repo add karakeep https://karakeep-app.github.io/helm-charts
+helm repo update
+helm install karakeep karakeep-app/karakeep
+```
+
+
+
 ### Configuration
 
 | Key                    | Description                              | Default                  |
