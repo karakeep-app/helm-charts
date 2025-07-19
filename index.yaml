@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  karakeep:
+  - apiVersion: v2
+    appVersion: 0.25.0
+    created: "2025-07-19T08:36:40.037486594Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 3.7.3
+    - name: meilisearch
+      repository: https://meilisearch.github.io/meilisearch-kubernetes
+      version: 0.12.0
+    description: A Helm chart for Karakeep
+    digest: 2ba25fc721e4ac92df4e5fbe67eeaf0303e3853b4ebcccf391abd5970f99c644
+    name: karakeep
+    type: application
+    urls:
+    - https://github.com/karakeep-app/helm-charts/releases/download/karakeep-0.25.0/karakeep-0.25.0.tgz
+    version: 0.25.0
+generated: "2025-07-19T08:36:40.037495251Z"
