@@ -36,6 +36,7 @@ controllers:
         probes:
           liveness:
             enabled: true
+            custom: true
             spec:
               initialDelaySeconds: 10
               httpGet:
@@ -43,6 +44,7 @@ controllers:
                 port: 3000
           readiness:
             enabled: true
+            custom: true
             spec:
               initialDelaySeconds: 10
               httpGet:
