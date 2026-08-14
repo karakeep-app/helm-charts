@@ -63,7 +63,7 @@ controllers:
     containers:
       chrome:
         image:
-          repository: gcr.io/zenika-hub/alpine-chrome
+          repository: docker.io/zenika/alpine-chrome
           tag: 124
 
         args:
