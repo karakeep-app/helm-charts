@@ -73,6 +73,7 @@ controllers:
           - --hide-scrollbars
           - --disable-gpu
           - --disable-dev-shm-usage
+          - --no-sandbox
 
         probes:
           liveness:
@@ -91,8 +92,8 @@ controllers:
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
-            add:
-            - SYS_ADMIN
+            drop:
+              - ALL
           readOnlyRootFilesystem: true
           runAsNonRoot: true
           runAsUser: 1000
