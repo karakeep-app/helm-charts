@@ -9,5 +9,5 @@ dependencies:
     version: 3.7.3
     repository: https://bjw-s-labs.github.io/helm-charts
   - name: meilisearch
-    version: 0.12.0
+    version: 0.41.0
     repository: https://meilisearch.github.io/meilisearch-kubernetes

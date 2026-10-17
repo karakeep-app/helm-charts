@@ -153,6 +153,10 @@ meilisearch:
     existingMasterKeySecret: "{{ .Release.Name }}-meilesearch"
   environment:
     MEILI_ENV: production
+    # Migrate the on-disk database in place when the Meilisearch version is
+    # bumped (dumpless upgrade, supported for databases created with v1.12+).
+    # This is a no-op when the database is already on the current version.
+    MEILI_UPGRADE_DB: true
   persistence:
     enabled: true
     size: 1Gi
