@@ -25,7 +25,7 @@ helm install karakeep karakeep-app/karakeep
 | `applicationHost`      | Hostname used in ingress/service         | `karakeep.domain`        |
 | `applicationProtocol`  | Protocol for internal service references | `http`                   |
 | `applicationSecretKey` | Secret used for app authentication       | Auto-generated if `null` |
-| `meilisearchMasterKey` | Meilesearch master key                   | Auto-generated if `null` |
+| `meilisearchMasterKey` | Meilisearch master key                   | Auto-generated if `null` |
 
 #### Example with OIDC Authentication
 
