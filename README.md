@@ -3,7 +3,7 @@
 Helm chart for deploying Karakeep along with:
 
 - **[Meilisearch](https://github.com/meilisearch/meilisearch-kubernetes)**: for fast and lightweight full-text search
-- **[Headless Chrome](https://github.com/jlandure/alpine-chrome)**: enables web page previews
+- **[Karakeep Chrome](https://github.com/karakeep-app/karakeep/tree/main/docker/chrome)**: headless Chrome used for crawling and web page previews
 
 This chart inherits from the [bjw-s/common](https://github.com/bjw-s/helm-charts/tree/main/charts/library/common) library.
 
